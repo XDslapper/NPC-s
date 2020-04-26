@@ -1,5 +1,5 @@
 # http://editorconfig.org/
-root = no
+root = yes
 
 [*]
 indent_size = 4
