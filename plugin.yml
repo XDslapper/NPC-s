@@ -2,15 +2,15 @@ name: NPC
 author: XDslapper
 version: 1.0.0
 description: The NPC plugin for PocketMine-MP
-main: npc\Main
-api: [3.9.0]
+main  : slapper \ Main
+api  : [ 3.9.0 ]
 mcpe-protocol: [361, 388, 389, 390]
-website: https://github.com/XDslapper/NPC
+website: https://github.com/XDslapper/NPC-s
 
 commands:
   slapper:
     description: Create a Slapper NPC, or edit an existing one!
-    usage: "/npc [args]..."
+    usage: "/slapper [args]..."
     permission: slapper.command
   rca:
     description: Execute a command as someone else!
@@ -27,13 +27,13 @@ permissions:
     default: op
     children:
       slapper.command:
-        description: Allow using /npc
+        description: Allow using /slapper
         default: op
       slapper.create:
-        description: Allow using command /npc create
+        description: Allow using command /slapper create
         default: op
       slapper.edit:
-        description: Allow editing Slapper entity data with /npc edit
+        description: Allow editing Slapper entity data with /slapper edit
         default: op
       slapper.nothing:
         description: Allow doing nothing
