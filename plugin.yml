@@ -2,8 +2,8 @@ name: slapper
 author: XDslapper
 version: 1.0.0
 description: Slapper, the NPC plugin for PocketMine-MPname: Slapper
-main : plugin_data/main
-api: [3.9.0]
+main    : plugin_data \ main
+api : [ 3.9.0 ]
 mcpe-protocol: [361, 388, 389, 390]
 website: https://github.com/XDslapper/NPC-s
 
